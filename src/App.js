@@ -231,44 +231,6 @@ const rawHTML = `
         </p>
     </article>
     
-    <!-- Addendum Section -->
-    <article>
-    <section>
-    <h2>Addendum: Explanation of HTML Element Choices</h2>
-    <ol>
-        <li><strong>`<!DOCTYPE html>`</strong>: This declaration defines the document to be HTML5. It helps the browser to display the web page correctly.</li>
-
-        <li><strong>`<html lang="en">`</strong>: This is the root element of the HTML document and specifies the language as English. It helps in accessibility and search engine optimization.</li>
-
-        <li><strong>`<head>`</strong>: This container holds meta-information, links to stylesheets, and other resources. It's not directly visible to the user but vital for functionality and metadata.</li>
-
-        <li><strong>`<meta charset="UTF-8">`</strong>: This meta tag defines the character set for the document, allowing the browser to display text correctly.</li>
-
-        <li><strong>`<meta name="viewport">`</strong>: Important for responsive web design. It makes sure the page fits the screen of the device viewing it.</li>
-
-        <li><strong>`<h1>`, `<h2>`, `<h3>`</strong>: These are header tags, denoting different levels of headings in the document. They provide structure and help in accessibility.</li>
-
-        <li><strong>`<address>`</strong>: Specifies contact information for the author or owner of the document or article.</li>
-
-        <li><strong>`<section>`</strong>: Represents a standalone section of content. Helps in structuring the document and making it more accessible.</li>
-
-        <li><strong>`<p>`</strong>: Represents a paragraph of text.</li>
-
-        <li><strong>`<figure>` and `<figcaption>`</strong>: Used together, they represent content like illustrations, diagrams, photos, or code listings alongside a caption.</li>
-
-        <li><strong>`<a href="...">`</strong>: Represents a hyperlink, which can lead to another webpage or can be used to create mailto links, as seen in the example.</li>
-
-        <li><strong>`<ol>`</strong>: Represents an ordered list. Perfect for listing references or other sequentially important items.</li>
-    </ol>
-    </section>
-    </article>
-    
-</body>
-</html>
-
-</div>
-`;
-
 function App() {
   
   return (
